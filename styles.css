@@ -17,8 +17,15 @@ body {
 
 .information {
   background-color: #f9faf8;
+  padding-top: 32px;
+  padding-bottom: 128px;
+}
+
+#testimonial {
+  background-color: #e5e7eb;
   padding: 32px;
-  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-text {
@@ -38,8 +45,8 @@ body {
 }
 
 .info-container {
-  width: 125px;
-  height: 125px;
+  width: 175px;
+  height: 175px;
 }
 
 .info-image {
@@ -48,12 +55,12 @@ body {
   border-color: #3882f6;
   color: #f9faf8;
   display: flex;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .info-subtext {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 #logo {
@@ -77,6 +84,28 @@ body {
 #image-list {
   display: flex;
   justify-content: center;
+}
+
+#quote-container {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: 850px;
+}
+
+#credit {
+  font-size: 24px;
+  align-self: flex-end;
+  margin-right: 150px;
+  margin-top: -32px;
 }
 
 #subtext, 
